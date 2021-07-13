@@ -1,0 +1,242 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+.container-fluid {
+    padding: 3% 10%;
+}
+p {
+    color: #8F8F8F;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat-Bold";
+}
+.main-heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.features-heading {
+    font-size: 1.5rem;
+}
+.price-heading {
+    font-family: "Montserrat-Black";
+    font-size: 2.5rem;
+}
+.cta-heading {
+    font-family: "Montserrat-Black";
+    font-size: 2.8rem;
+    line-height: 1.5;
+}
+/* **************Title section************** */
+#title {
+    background-color: #FF4C68;
+    color: #FFFFFF;
+    text-align: left;
+}
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    margin-left: 20%;
+}
+
+/* Navigation bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Download buttons */
+.download-button {
+    margin: 5% 3% 0 0;
+}
+
+/* **************Features section************** */
+#features {
+    padding: 7% 10%;
+    margin-top: -200px;
+    z-index: 1;
+    position: relative;
+    background-color: #FFF;
+}
+
+.fa-check-circle {
+    font-size: 50px;
+    margin: 0 auto 10px;
+    color: #EF8172;
+}
+.fa-check-circle:hover {
+    color: #FF4C68;
+}
+.fa-bullseye {
+    font-size: 50px;
+    margin: 0 auto 10px;
+    color: #EF8172;
+}
+.fa-bullseye:hover {
+    color: #FF4C68;
+}
+.fa-heart {
+    font-size: 50px;
+    margin: 0 auto 10px;
+    color: #EF8172;
+}
+.fa-heart:hover {
+    color: #FF4C68;
+}
+.feature-box {
+    padding: 5% 5%;
+}
+
+/* **************Testimonial section************** */
+#testimonials {
+    background-color: #EF8172;
+    color: #FFF;
+}
+.testimonial-text {
+    font-family: "Montserrat-Black";
+    font-size: 2.8rem;
+    line-height: 1.5;
+}
+.testimonial_image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* **************Press section************** */
+#press {
+    background-color: #EF8172;
+    padding: 0 7% 3%;
+}
+
+.press_logo {
+    width: 20%;
+    margin: 20px 20px 50px;
+}
+
+/* **************Pricing section************** */
+#pricing {
+    padding: 7% 10%;
+}
+.price-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.dog-breed {
+    font-size: 1.6rem;
+}
+.card {
+    height: 365px;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+.signup-button-shift {
+    margin-top: 40px;
+}
+
+/* **************CTA section************** */
+#cta {
+    background-color: #FF4C68;
+    color: #FFFFFF;
+    padding: 7% 15%;
+}
+.download-button2 {
+    margin: 7% 3% 0 0;
+}
+
+/* **************Footer section************** */
+#footer {
+    padding: 7% 15%;
+    background-color: #FFF;
+}
+.footer-icons {
+    color: #000;
+    margin: 3% 1%;
+}
+
+/* **************Media query************** */
+/* Breakpoint 0 for courousel - fullscreen*/
+@media (max-width: 1110px) {
+    .main-heading {
+        font-size: 3rem;
+        line-height: 1.3;
+        margin-bottom: 0;
+    }
+
+    .download-button {
+        padding: 0.4rem 0.6rem;
+        font-size: 1rem;
+        border-radius: 0.25rem;
+    }
+}
+
+@media (max-width: 960px) {
+    .main-heading {
+        font-size: 2.3rem;
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+
+    .download-button {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.875rem;
+        border-radius: 0.2rem;
+    }
+
+    .testimonial-text {
+        font-size: 2.5rem;
+        line-height: 1.3;
+    }
+}
+
+
+/* Breakpoint 1 for courousel - tablet*/
+@media (max-width: 767px) {
+    #title {
+        text-align: center;
+    }
+    .main-heading {
+        font-size: 2.8rem;
+        line-height: 1.3;
+
+    }
+    .download-button {
+        padding: 0.4rem 0.6rem;
+        font-size: 1rem;
+        border-radius: 0.25rem;
+    }
+    .title-image {
+        width: 60%;
+        transform: rotate(0);
+        position: static;
+        margin-top: 5%;
+        margin: 0;
+    }
+
+    .testimonial-text {
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+    .cta-heading {
+        font-size: 2.3rem;
+        line-height: 1.3;
+    }
+}
